@@ -1,0 +1,16 @@
+.profile {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+.name {
+  color: grey;
+}
+.avatar {
+  width: 250px;
+  height: 250px;
+}
