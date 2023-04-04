@@ -1,0 +1,34 @@
+.statistics {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+.title {
+  padding: 5px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.statList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  list-style: none;
+  display: block;
+  flex-direction: row;
+  width: calc(100% / 4);
+  padding: 10px;
+  /* background-color: ${({color}) => color}; */
+}
+.label {
+  display: block;
+}
