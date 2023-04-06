@@ -11,11 +11,12 @@ export const TransactionTable = styled.table`
   text-align: center;
   box-shadow: 10px 10px 20px #333333;
   border-collapse: collapse;
+  border: 1px solid white;
   thead {
     background-color: #545c94;
   }
 
-  tr:nth-child(2n) {
+  tr:nth-of-type(even) {
     background-color: #9394eb;
     color: #333333;
   }
