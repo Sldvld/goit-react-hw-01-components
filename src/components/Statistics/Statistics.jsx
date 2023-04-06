@@ -13,7 +13,6 @@ export const Statistics = ({ title, stats }) => {
   return (
     <StatsSection>
       {title && <StatsTitle>{title}</StatsTitle>}
-
       <StatsList>
         {stats.map(({ id, label, percentage }) => {
           return (
@@ -30,10 +29,10 @@ export const Statistics = ({ title, stats }) => {
 Statistics.propTypes = {
   stats: PropTypes.arrayOf(
     PropTypes.exact({
-      id: PropTypes.string.isRequred,
-      label: PropTypes.string.isRequred,
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
     })
   ),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
